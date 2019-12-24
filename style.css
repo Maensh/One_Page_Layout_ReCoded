@@ -1,322 +1,351 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  header {
-    width: 100%;
-    height: 700px;
-    background: linear-gradient(
-        to bottom,
-        rgba(92, 77, 66, 0.8) 0,
-        rgba(92, 77, 66, 0.8) 100%
-      ),
-      url("img/header.jpg");
-    background-size: 100% 100%;
-  }
-  header h3 {
-    float: left;
-    padding: 20px 100px;
-    color: white;
-  }
-  
-  header ul {
-    list-style: none;
-    margin: 0px 100px;
-  }
-  header ul li {
-    display: inline-block;
-    padding: 10px;
-    padding-top: 20px;
-    float: right;
-  }
-  header ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  #title1 {
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    font-size: 45px;
-  }
-  #title2 {
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
-    left: 50%;
-    top: 47%;
-    transform: translate(-50%, -50%);
-    font-size: 45px;
-  }
-  
-  header hr {
-    background-color: #f7603d;
-    width: 65px;
-    height: 3px;
-    border-radius: 5px;
-    border-color: #f7603d;
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
-  }
-  
-  #parag1 {
-    color: rgb(204, 196, 196);
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-  }
-  #parag2 {
-    color: rgb(204, 196, 196);
-    position: absolute;
-    left: 50%;
-    top: 64%;
-    transform: translate(-50%, -50%);
-  }
-  .find_button {
-    background-color: #f7603d;
-    color: white;
-    width: 170px;
-    height: 50px;
-    position: absolute;
-    left: 50%;
-    top: 78%;
-    transform: translate(-50%, -50%);
-    padding: 14px 20px;
-    border-radius: 25px;
-    border: none;
-    font-size: 13px;
-    font-weight: bold;
-  }
-  
-  /* Get Started Section */
-  .get_started {
-    background-color: #f7603d;
-    width: 100%;
-    height: 400px;
-  }
-  
-  .get_started_h3 {
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 128%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-  }
-  .get_started hr {
-    background-color: white;
-    width: 65px;
-    height: 3px;
-    border-radius: 5px;
-    border-color: white;
-    position: absolute;
-    left: 50%;
-    top: 134%;
-    transform: translate(-50%, -50%);
-  }
-  .get_started_parag1 {
-    color: rgb(204, 196, 196);
-    position: absolute;
-    left: 50%;
-    top: 140%;
-    transform: translate(-50%, -50%);
-  }
-  .get_started_parag2 {
-    color: rgb(204, 196, 196);
-    position: absolute;
-    left: 50%;
-    top: 144%;
-    transform: translate(-50%, -50%);
-  }
-  .get_started_parag3 {
-    color: rgb(204, 196, 196);
-    position: absolute;
-    left: 50%;
-    top: 148%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .get_started_find {
-    background-color: #f4eef7;
-    color: black;
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    left: 50%;
-    top: 160%;
-    transform: translate(-50%, -50%);
-    padding: 14px 20px;
-    border-radius: 25px;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-  }
-  
-  /* Services Section*/
-  .services {
-    display: block;
-    width: 100%;
-    height: 400px;
-    font-size: 1.1em;
-    background-color: #fff;
-    overflow: visible;
-  }
-  
-  .services h3 {
-    padding-top: 2em;
-    text-align: center;
-    color: #343a40;
-    display: block;
-    font-size: 22px;
-    position: absolute;
-    left: 50%;
-    top: 192%;
-    transform: translate(-50%, -50%);
-  }
-  .services hr {
-    background-color: #f7603d;
-    width: 65px;
-    height: 3px;
-    border-radius: 5px;
-    border-color: #f7603d;
-    position: absolute;
-    left: 50%;
-    top: 200%;
-    transform: translate(-50%, -50%);
-  }
-  .services ul {
-    display: inline-block;
-    position: absolute;
-    width: 100%;
-    left: 60%;
-    top: 215%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .services ul h4 {
-    color: #343a40;
-  }
-  
-  .services ul img {
-    width: 170px;
-    height: 100px;
-    box-sizing: content-box;
-  }
-  .services ul li {
-    text-align: center;
-    width: 20%;
-    display: inline-block;
-    float: left;
-    color: #343a40;
-    margin-top: 3em;
-  }
-  
-  .services ul li p {
-    color: rgb(121, 112, 112);
-    font-size: 14px;
-  }
-  
-  /* Images Section*/
-  .images {
-    width: 100%;
-    height: 400px;
-  }
-  .images img {
-    box-sizing: border-box;
-    margin: 0px;
-    float: left;
-    width: 33.3333%;
-    height: 240px;
-  }
-  
-  /* Download Section*/
-  .download {
-    background-color: #353a3e;
-    width: 100%;
-    height: 350px;
-  }
-  .download h3 {
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 342%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-  }
-  .download button {
-    background-color: #f4eef7;
-    color: black;
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    left: 50%;
-    top: 352%;
-    transform: translate(-50%, -50%);
-    padding: 14px 20px;
-    border-radius: 25px;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-  }
-  
-  /* Touch Section */
-  .touch {
-      width: 100%;
-      height: 400px;
-  }
-  .touch h3 {
-      color: black;
-      position: absolute;
-      left: 50%;
-      top: 390%;
-      transform: translate(-50%, -50%);
-      font-size: 20px;
-    }
-    .touch hr {
-      background-color: #f7603d;;
-      width: 65px;
-      height: 3px;
-      border-radius: 5px;
-      border-color: #f7603d;;
-      position: absolute;
-      left: 50%;
-      top: 396%;
-      transform: translate(-50%, -50%);
-    }
-    .touch_parag1 {
-      color: rgb(121, 112, 112);
-      position: absolute;
-      left: 50%;
-      top: 402%;
-      transform: translate(-50%, -50%);
-    }
-    .touch_parag2 {
-      color: rgb(121, 112, 112);
-      position: absolute;
-      left: 50%;
-      top: 406%;
-      transform: translate(-50%, -50%);
-    }
-  
-    /* Footer */
-    footer {
-        background-color: #F7F8FA;
-      width: 100%;
-      height: 100px;
-    }
-  
-    footer h6 {
-      color: rgb(121, 112, 112);;
-      position: absolute;
-      left: 50%;
-      top: 445%;
-      transform: translate(-50%, -50%);
-    }
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("img/header.jpg");
+  background-size: 100% 100%;
+}
+header h3 {
+  float: left;
+  padding: 20px 100px;
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  margin: 0px 100px;
+}
+header ul li {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 20px;
+  float: right;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+#title1 {
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+}
+#title2 {
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+}
+
+header hr {
+  background-color: #f7603d;
+  width: 65px;
+  height: 3px;
+  border-radius: 5px;
+  border-color: #f7603d;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+#parag1 {
+  color: rgb(204, 196, 196);
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+#parag2 {
+  color: rgb(204, 196, 196);
+  position: absolute;
+  left: 50%;
+  top: 64%;
+  transform: translate(-50%, -50%);
+}
+.find_button {
+  background-color: #f7603d;
+  color: white;
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 78%;
+  transform: translate(-50%, -50%);
+  padding: 14px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Get Started Section */
+.get_started {
+  background-color: #f7603d;
+  width: 100%;
+  height: 400px;
+}
+
+.get_started_h3 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 128%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.get_started hr {
+  background-color: white;
+  width: 65px;
+  height: 3px;
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+  left: 50%;
+  top: 134%;
+  transform: translate(-50%, -50%);
+}
+.get_started_parag1 {
+  color: rgb(204, 196, 196);
+  position: absolute;
+  left: 50%;
+  top: 140%;
+  transform: translate(-50%, -50%);
+}
+.get_started_parag2 {
+  color: rgb(204, 196, 196);
+  position: absolute;
+  left: 50%;
+  top: 144%;
+  transform: translate(-50%, -50%);
+}
+.get_started_parag3 {
+  color: rgb(204, 196, 196);
+  position: absolute;
+  left: 50%;
+  top: 148%;
+  transform: translate(-50%, -50%);
+}
+
+.get_started_find {
+  background-color: #f4eef7;
+  color: black;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 50%;
+  top: 160%;
+  transform: translate(-50%, -50%);
+  padding: 14px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Services Section*/
+.services {
+  display: block;
+  width: 100%;
+  height: 400px;
+  font-size: 1.1em;
+  background-color: #fff;
+  overflow: visible;
+}
+
+.services h3 {
+  padding-top: 2em;
+  text-align: center;
+  color: #343a40;
+  display: block;
+  font-size: 22px;
+  position: absolute;
+  left: 50%;
+  top: 192%;
+  transform: translate(-50%, -50%);
+}
+.services hr {
+  background-color: #f7603d;
+  width: 65px;
+  height: 3px;
+  border-radius: 5px;
+  border-color: #f7603d;
+  position: absolute;
+  left: 50%;
+  top: 200%;
+  transform: translate(-50%, -50%);
+}
+.services ul {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  left: 60%;
+  top: 215%;
+  transform: translate(-50%, -50%);
+}
+
+.services ul h4 {
+  color: #343a40;
+}
+
+.services ul img {
+  width: 170px;
+  height: 100px;
+  box-sizing: content-box;
+}
+.services ul li {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  color: #343a40;
+  margin-top: 3em;
+}
+
+.services ul li p {
+  color: rgb(121, 112, 112);
+  font-size: 14px;
+}
+
+/* Images Section*/
+.images {
+  width: 100%;
+  height: 400px;
+}
+.images img {
+  box-sizing: border-box;
+  margin: 0px;
+  float: left;
+  width: 33.3333%;
+  height: 240px;
+}
+
+/* Download Section*/
+.download {
+  background-color: #353a3e;
+  width: 100%;
+  height: 350px;
+}
+.download h3 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 342%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.download button {
+  background-color: #f4eef7;
+  color: black;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 50%;
+  top: 352%;
+  transform: translate(-50%, -50%);
+  padding: 14px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Touch Section */
+.touch {
+  width: 100%;
+  height: 400px;
+}
+.touch h3 {
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 390%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.touch hr {
+  background-color: #f7603d;
+  width: 65px;
+  height: 3px;
+  border-radius: 5px;
+  border-color: #f7603d;
+  position: absolute;
+  left: 50%;
+  top: 396%;
+  transform: translate(-50%, -50%);
+}
+.touch_parag1 {
+  color: rgb(121, 112, 112);
+  position: absolute;
+  left: 50%;
+  top: 402%;
+  transform: translate(-50%, -50%);
+}
+.touch_parag2 {
+  color: rgb(121, 112, 112);
+  position: absolute;
+  left: 50%;
+  top: 406%;
+  transform: translate(-50%, -50%);
+}
+.touch ul {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 415%;
+  transform: translate(-50%, -50%);
+}
+
+.touch ul img {
+  width: 50px;
+  height: 35px;
+  box-sizing: content-box;
+}
+.touch ul li {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  list-style: none;
+  float: left;
+  color: #343a40;
+  margin-top: 3em;
+}
+
+.touch ul li h5 {
+  color: rgb(121, 112, 112);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #f7f8fa;
+  width: 100%;
+  height: 100px;
+}
+
+footer h6 {
+  color: rgb(121, 112, 112);
+  position: absolute;
+  left: 50%;
+  top: 445%;
+  transform: translate(-50%, -50%);
+}
